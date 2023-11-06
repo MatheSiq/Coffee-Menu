@@ -1,5 +1,11 @@
+ADICIONANDO SEU PROJETO AO SEU REPOSITORIO
 git init
 git add .
-git commit -m "projeto inicial"
-git remote add origin git@github.com:SEU_USUARIO/SEU_REPOSITORIO
+git commit -m "alteacao feita"
+git remote add origin git@github.com:MatheSiq/SEU_REPOSITORIO
 git push origin main
+
+GERANDO CHAVE SSH
+ssh-keygen -t ed25519 -C "your_email@example.com"
+Gerenciador de arquivos>Este Computador>C:>Users>{SEU USUARIO}>.ssh
+Adicionar a chave publica(.pub) ao seu github
